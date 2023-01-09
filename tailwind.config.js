@@ -15,6 +15,9 @@ module.exports = {
         'custom-pink': {
           600: '#C23AAE'
         },
+        'custom-gray': {
+          600: '#333333'
+        }
       },
     },
     letterSpacing: {

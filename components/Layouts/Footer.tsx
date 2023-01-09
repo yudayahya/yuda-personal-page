@@ -7,7 +7,7 @@ const Footer: NextPage = () => {
             <footer>
                 <div className='grid grid-cols-1 sm:grid-cols-2 px-6 sm:px-0'>
                     <div className='order-2 sm:order-1 flex justify-center my-2 sm:my-0 sm:justify-start items-center text-sm text-custom-black-300'>
-                        Build With <AiFillHeart className='w-12 h-5 -mx-2' /> by <a href="https://github.com/yudayahya" target="_blank" rel="noopener noreferrer" className='ml-1 underline hover:text-white'>Yuda Yahya</a>
+                        Inspired by <a href="https://vercel.com" target="_blank" rel="noopener noreferrer" className='mx-1 underline hover:text-white'>Vercel </a> Build With <AiFillHeart className='w-12 h-5 -mx-2' /> by <a href="https://github.com/yudayahya" target="_blank" rel="noopener noreferrer" className='ml-1 underline hover:text-white'>Yuda Yahya</a>
                     </div>
                     <div className='order-1 sm:order-2 flex justify-center my-2 sm:my-0 sm:justify-end items-center'>
                         <a className='text-custom-black-300 hover:text-white' href="https://github.com/yudayahya" target="_blank" rel="noopener noreferrer">
