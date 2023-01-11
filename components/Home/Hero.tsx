@@ -118,7 +118,7 @@ const Hero: NextPage = () => {
                     <div className='w-full h-20 mt-16 px-6'>
                         <p className='text-center text-custom-black-300 text-xl'>
                             Hi there!👋🏻 <br />
-                            I&apos;m Aziiza Yuda Yahya, Bachelor of Computer Science at University of Technology Yogyakarta, Indonesia. <br />
+                            I&apos;m Aziiza Yuda Yahya, Bachelor of Computer Science, Software Engineer at amalan International Indonesia. <br />
                             🧑‍💻 I&apos;m currently working on development web and mobile apps, Full-stack. <br /> 
                             📖 I&apos;m currently learning Laravel, Codeigniter, Django, Express.js, Nest.js, Nuxt.js, Next.js, Vue.js, React.js, and Flutter. <br />
                             🤙🏼 I&apos;m looking to collaborate for build some huge mobile or web apps.
