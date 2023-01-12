@@ -1,7 +1,7 @@
 export const projects = [
     {
         title: 'Food Ordering App',
-        description: "This project is about food ordering Web application build with codeigniter 3. Integrated with Pusher API, Mapquest API and Midtrans payment gateway.",
+        description: "This project is about food ordering Web application built with codeigniter 3. Integrated with Pusher API, Mapquest API and Midtrans payment gateway.",
         image: '/assets/images/the-crabbys.png',
         alt: 'the crabbys',
         stacks: ['MySQL', 'Codeigniter', 'Javascript'],
@@ -19,7 +19,7 @@ export const projects = [
     },
     {
         title: 'Simpe Image Editor',
-        description:"Simple image editor build with Vue 3 & Typescript",
+        description:"Simple image editor built with Vue 3 & Typescript",
         image: '/assets/images/simple-image-editor.png',
         alt: 'simple image editor',
         stacks: ['Vue 3', 'Typescript'],
