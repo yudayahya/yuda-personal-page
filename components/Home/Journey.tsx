@@ -27,7 +27,7 @@ const Journey: NextPage = () => {
                 <p className='text-center text-white text-6xl tracking-tighter font-bold'>Let Me Tell You About My Journey</p>
                 <p className='text-center text-custom-black-300 text-lg py-6'>
                     I was born in Madiun, Indonesia. <br />
-                    After <span className='text-custom-pink-600'>graduating</span> from high school, I decided to <span className='text-custom-pink-600'>study</span> in Yogyakarta, Indonesia. <br />
+                    After <span className='text-custom-pink-600'>graduated</span> from high school, I decided to <span className='text-custom-pink-600'>study</span> in Yogyakarta, Indonesia. <br />
                     I majored in <span className='text-custom-pink-600'>informatics engineering</span>, from here my journey begins...
                 </p>
                 <div className='w-full flex justify-center items-center cursor-default'>
