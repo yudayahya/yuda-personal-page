@@ -11,7 +11,7 @@ const CodeEditor: NextPage = () => {
                             <div className='w-4 h-4 bg-yellow-400 rounded-full mx-2'></div>
                             <div className='w-4 h-4 bg-green-600 rounded-full'></div>
                         </div>
-                        <p className='text-sm text-white'>App.tsx</p>
+                        <p className='text-sm text-white'>index.ts</p>
                         <div className='w-12'></div>
                     </div>
                     <div className='w-full h-[230px] py-4 px-4 overflow-y-scroll scrollbar-hide'>
