@@ -2,7 +2,7 @@ import type { NextPage } from 'next'
 import { FaLaravel } from 'react-icons/fa'
 import { RiVuejsFill, RiFlutterFill } from 'react-icons/ri'
 import { GrMysql } from 'react-icons/gr'
-import { SiCodeigniter, SiDjango, SiExpress, SiNestjs, SiNuxtdotjs, SiNextdotjs, SiReact, SiPostgresql, SiMongodb, SiGooglecloud, SiAmazonaws, SiDigitalocean } from 'react-icons/si'
+import { SiCodeigniter, SiDjango, SiExpress, SiNestjs, SiNuxtdotjs, SiNextdotjs, SiReact, SiPostgresql, SiMongodb, SiGooglecloud, SiAmazonaws, SiDigitalocean, SiSvelte } from 'react-icons/si'
 
 const Skills: NextPage = () => {
     return (
@@ -87,6 +87,14 @@ const Skills: NextPage = () => {
                             React.js
                         </div>
                     </div>
+                    <div className='text-custom-black-300 hover:text-white mx-2 sm:mx-4 cursor-pointer group relative flex justify-center items-center'>
+                        <SiSvelte className='w-8 h-8 sm:w-10 sm:h-10' />
+                        <div className='absolute -bottom-12 bg-custom-black-900 px-6 py-2 z-10 mx-auto rounded-lg border text-sm border-white border-opacity-30 hidden group-hover:block'>
+                            Svelte.js
+                        </div>
+                    </div>
+                </div>
+                <div className='w-full flex justify-center items-center py-3'>
                     <div className='text-custom-black-300 hover:text-white mx-2 sm:mx-4 cursor-pointer group relative flex justify-center items-center'>
                         <RiFlutterFill className='w-8 h-8 sm:w-10 sm:h-10' />
                         <div className='absolute -bottom-12 bg-custom-black-900 px-6 py-2 z-10 mx-auto rounded-lg border text-sm border-white border-opacity-30 hidden group-hover:block'>

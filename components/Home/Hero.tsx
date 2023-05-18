@@ -120,7 +120,7 @@ const Hero: NextPage = () => {
                             Hi there!👋🏻 <br />
                             I&apos;m Aziiza Yuda Yahya, Bachelor of Computer Science, Software Engineer at amalan International Indonesia. <br />
                             🧑‍💻 I&apos;m currently working on development web and mobile apps, Full-stack. <br /> 
-                            📖 I&apos;m currently learning Laravel, Codeigniter, Django, Express.js, Nest.js, Nuxt.js, Next.js, Vue.js, React.js, and Flutter. <br />
+                            📖 I&apos;m currently learning Laravel, Codeigniter, Django, Express.js, Nest.js, Nuxt.js, Next.js, Vue.js, React.js, Svelte.js and Flutter. <br />
                             🤙🏼 I&apos;m looking to collaborate for build some huge mobile or web apps.
                         </p>
                     </div>
