@@ -33,7 +33,7 @@ const ProjectCard: NextPage<CardProps> = (props) => {
                         {
                             props.stacks.map((stack, index) => {
                                 const separator = index === 0 ? '' : ' - '
-                                return <span className='text-blue-400' key={index}>{separator}{stack}</span>
+                                return <span className='text-orange-400' key={index}>{separator}{stack}</span>
                             })
                         }
                     </p>
