@@ -25,5 +25,23 @@ export const projects = [
         stacks: ['Vue 3', 'Typescript'],
         github: 'https://github.com/yudayahya/simple-image-editor',
         preview: 'https://simple-image-editor-by-yudayahya.netlify.app',
+    },
+    {
+        title: 'Simpe URL Shortener',
+        description:"Simple URL shortener built with Svelte & Typescript",
+        image: '/assets/images/simple-url-shortener.png',
+        alt: 'simple url shortener',
+        stacks: ['Svelte', 'Typescript'],
+        github: 'https://github.com/yudayahya/url-shortener-svelte',
+        preview: 'https://url-shortener-svelte.vercel.app',
+    },
+    {
+        title: 'Mandiri Support Balikpapan',
+        description:"This project is my client's order project, i'm developing this project from scratch. this project is using MySQL database, Laravel PHP Web Framework, Jquery and Pusher API for realtime notification.",
+        image: '/assets/images/mandiri-support.png',
+        alt: 'mandiri support',
+        stacks: ['MySQL', 'Laravel', 'Javascript'],
+        github: 'https://github.com/yudayahya',
+        preview: 'https://mandirisupport.com',
     }
 ]
