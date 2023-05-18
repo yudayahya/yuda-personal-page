@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react'
 import LineSection from '../LineSection'
 
 const Journey: NextPage = () => {
-    const [maxWidth, setMaxWidth] = useState({ maxWidth: 'max-content' })
+    const [maxWidth, setMaxWidth] = useState({ maxWidth: '0px' })
 
     const resizeWidth = () => {
         const screenWidth = window?.innerWidth
