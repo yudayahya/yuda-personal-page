@@ -107,7 +107,7 @@ const Hero: NextPage = () => {
                                 <a href="#about-me" className='block max-w-sm p-px my-5 rounded-md bg-white mx-auto'>
                                     <div className='rounded-md h-[36px] flex justify-center items-center bg-white text-custom-black-900'>Get Started</div>
                                 </a>
-                                <a className='block max-w-sm h-[38px] mt-5 rounded-md relative mx-auto transition-shadow duration-[1500ms] ease-in-out' style={buttonBoxShadow} href="https://drive.google.com/file/d/1FUgE7iNEDBq2QEtbMR7ykyZh4puLCRMn/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                                <a className='block max-w-sm h-[38px] mt-5 rounded-md relative mx-auto transition-shadow duration-[1500ms] ease-in-out' style={buttonBoxShadow} href="https://drive.google.com/file/d/1QJ04NSzYA7r2apNPhElk1nZrm-5X_Xyn/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                                     <div className={'w-full h-[38px] rounded-md absolute flex justify-center items-center transition-opacity duration-[1500ms] ease-in-out bg-gradient-to-br from-blue-800 to-cyan-400 ' + buttonFirstGradient}>See My Resume</div>
                                     <div className={'w-full h-[38px] rounded-md absolute flex justify-center items-center transition-opacity duration-[1500ms] ease-in-out bg-gradient-to-tr from-purple-700 to-pink-500 ' + buttonSecondGradient}>See My Resume</div>
                                     <div className={'w-full h-[38px] rounded-md absolute flex justify-center items-center transition-opacity duration-[1500ms] ease-in-out bg-gradient-to-r from-orange-700 to-yellow-400 ' + buttonThirdGradient}>See My Resume</div>
