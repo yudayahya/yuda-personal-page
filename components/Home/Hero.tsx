@@ -90,7 +90,7 @@ const Hero: NextPage = () => {
                             <a href="#about-me" className='w-48 p-px mx-4 rounded-md bg-white group'>
                                 <div className='rounded-md h-11 flex justify-center items-center bg-white text-custom-black-900 group-hover:bg-custom-black-900 group-hover:text-white transition-all ease-in-out duration-500'>Get Started</div>
                             </a>
-                            <a className='w-48 h-[46px] mx-4 rounded-md group relative transition-shadow duration-[1500ms] ease-in-out' style={buttonBoxShadow} href="https://drive.google.com/file/d/1QJ04NSzYA7r2apNPhElk1nZrm-5X_Xyn/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                            <a className='w-48 h-[46px] mx-4 rounded-md group relative transition-shadow duration-[1500ms] ease-in-out' style={buttonBoxShadow} href="https://drive.google.com/file/d/1Or3m8dWjm-t8Je6St5rdEYV1iYbj9o5e/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                                 <div className={'w-full h-[46px] rounded-md absolute transition-opacity duration-[1500ms] ease-in-out bg-gradient-to-br from-blue-800 to-cyan-400 ' + buttonFirstGradient}></div>
                                 <div className={'w-full h-[46px] rounded-md absolute transition-opacity duration-[1500ms] ease-in-out bg-gradient-to-tr from-purple-700 to-pink-500 ' + buttonSecondGradient}></div>
                                 <div className={'w-full h-[46px] rounded-md absolute transition-opacity duration-[1500ms] ease-in-out bg-gradient-to-r from-orange-700 to-yellow-400 ' + buttonThirdGradient}></div>
@@ -107,7 +107,7 @@ const Hero: NextPage = () => {
                                 <a href="#about-me" className='block max-w-sm p-px my-5 rounded-md bg-white mx-auto'>
                                     <div className='rounded-md h-[36px] flex justify-center items-center bg-white text-custom-black-900'>Get Started</div>
                                 </a>
-                                <a className='block max-w-sm h-[38px] mt-5 rounded-md relative mx-auto transition-shadow duration-[1500ms] ease-in-out' style={buttonBoxShadow} href="https://drive.google.com/file/d/1QJ04NSzYA7r2apNPhElk1nZrm-5X_Xyn/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                                <a className='block max-w-sm h-[38px] mt-5 rounded-md relative mx-auto transition-shadow duration-[1500ms] ease-in-out' style={buttonBoxShadow} href="https://drive.google.com/file/d/1Or3m8dWjm-t8Je6St5rdEYV1iYbj9o5e/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                                     <div className={'w-full h-[38px] rounded-md absolute flex justify-center items-center transition-opacity duration-[1500ms] ease-in-out bg-gradient-to-br from-blue-800 to-cyan-400 ' + buttonFirstGradient}>See My Resume</div>
                                     <div className={'w-full h-[38px] rounded-md absolute flex justify-center items-center transition-opacity duration-[1500ms] ease-in-out bg-gradient-to-tr from-purple-700 to-pink-500 ' + buttonSecondGradient}>See My Resume</div>
                                     <div className={'w-full h-[38px] rounded-md absolute flex justify-center items-center transition-opacity duration-[1500ms] ease-in-out bg-gradient-to-r from-orange-700 to-yellow-400 ' + buttonThirdGradient}>See My Resume</div>
