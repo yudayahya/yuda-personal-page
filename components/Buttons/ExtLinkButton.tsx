@@ -1,5 +1,3 @@
-const btnType = ['primary', 'secondary', 'ghost'] as const;
-
 const btnTypeClasses = {
     primary:
         'w-full py-3 text-center text-sm font-medium text-custom-black-900 rounded-lg bg-white border border-white hover:bg-custom-black-900 hover:text-white transition-all ease-in-out duration-500',
@@ -11,7 +9,7 @@ const btnTypeClasses = {
 type propsType = {
     href: string;
     target?: '_blank' | '_self' | '_parent' | '_top';
-    type?: (typeof btnType)[number];
+    type?: 'primary' | 'secondary' | 'ghost';
     className?: string;
     children: Readonly<React.ReactNode>;
 };
