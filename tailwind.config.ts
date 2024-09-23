@@ -1,8 +1,10 @@
-/** @type {import('tailwindcss').Config} */
-module.exports = {
+import type { Config } from "tailwindcss";
+
+const config: Config = {
   content: [
-    "./pages/**/*.{js,ts,jsx,tsx}",
-    "./components/**/*.{js,ts,jsx,tsx}",
+    "./pages/**/*.{js,ts,jsx,tsx,mdx}",
+    "./components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
     extend: {
@@ -28,8 +30,10 @@ module.exports = {
       wide: '.025em',
       wider: '.05em',
       widest: '.1em',
-      widest: '.25em',
+      widests: '.25em',
     }
   },
   plugins: [],
 }
+
+export default config;
