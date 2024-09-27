@@ -111,7 +111,7 @@ export default function Hero() {
                             <a
                                 className="w-48 h-[46px] mx-4 rounded-md group relative transition-shadow duration-[1500ms] ease-in-out"
                                 style={buttonBoxShadow}
-                                href="https://drive.google.com/file/d/1Or3m8dWjm-t8Je6St5rdEYV1iYbj9o5e/view?usp=sharing"
+                                href="https://drive.google.com/file/d/1MWlUArwaiautTwMhEAGFufz45YfSqT32/view?usp=sharing"
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
@@ -174,7 +174,7 @@ export default function Hero() {
                                 <a
                                     className="block max-w-sm h-[38px] mt-5 rounded-md relative mx-auto transition-shadow duration-[1500ms] ease-in-out"
                                     style={buttonBoxShadow}
-                                    href="https://drive.google.com/file/d/1Or3m8dWjm-t8Je6St5rdEYV1iYbj9o5e/view?usp=sharing"
+                                    href="https://drive.google.com/file/d/1MWlUArwaiautTwMhEAGFufz45YfSqT32/view?usp=sharing"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >
