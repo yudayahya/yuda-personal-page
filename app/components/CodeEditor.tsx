@@ -37,7 +37,7 @@ export default function CodeEditor() {
                             <br />
                             <br />
                             <code className="text-sky-300">export default</code>
-                            <code className="text-white text-opacity-70"> lifeMust</code>
+                            <code className="text-white/70"> lifeMust</code>
                         </p>
                     </div>
                     <div className="w-full absolute bottom-0 px-4 h-6 rounded-b-xl bg-gray-600/40"></div>
