@@ -1,7 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+@theme {
+    --color-custom-black-900: #000;
+    --color-custom-black-600: #111;
+    --color-custom-black-300: #888;
+    --color-custom-pink-600: #C23AAE;
+    --color-custom-gray-600: #333333;
+
+    --tracking-tightest: -.2em;
+    --tracking-tighter: -.05em;
+    --tracking-tight: -.025em;
+    --tracking-normal: 0;
+    --tracking-wide: .025em;
+    --tracking-wider: .05em;
+    --tracking-widest: .1em;
+    --tracking-widests: .25em;
+}
 
 @layer base {
     html {
@@ -11,11 +26,11 @@
 }
 
 .navbar-absolute {
-    @apply absolute bg-custom-black-900 bg-opacity-50;
+    @apply absolute bg-custom-black-900/50;
 }
 
 .navbar-fixed {
-    @apply fixed bg-custom-black-900 bg-opacity-50 border-b border-white border-opacity-10;
+    @apply fixed bg-custom-black-900/50 border-b border-white/10;
 }
 
 .navbar-mobile-menu-active {
