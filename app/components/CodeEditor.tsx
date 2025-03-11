@@ -2,7 +2,7 @@ export default function CodeEditor() {
     return (
         <>
             <div className="w-full py-6">
-                <div className="mx-auto w-full max-w-2xl min-h-[300px] rounded-xl border border-white border-opacity-10 relative">
+                <div className="mx-auto w-full max-w-2xl min-h-[300px] rounded-xl border border-white/10 relative">
                     <div className="w-full px-4 py-2 rounded-t-xl bg-custom-black-600 flex justify-between items-center">
                         <div className="flex justify-start items-center">
                             <div className="w-4 h-4 bg-red-500 rounded-full"></div>

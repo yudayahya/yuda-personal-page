@@ -173,7 +173,7 @@ export default function Skills() {
                                 className="text-custom-black-300 hover:text-white mx-2 sm:mx-4 cursor-pointer group relative flex justify-center items-center"
                             >
                                 {item.icon()}
-                                <div className="absolute -bottom-12 bg-custom-black-900 px-6 py-2 z-10 mx-auto rounded-lg border text-sm border-white border-opacity-30 hidden group-hover:block">
+                                <div className="absolute -bottom-12 bg-custom-black-900 px-6 py-2 z-10 mx-auto rounded-lg border text-sm border-white/30 hidden group-hover:block">
                                     {item.name}
                                 </div>
                             </div>

@@ -93,7 +93,7 @@ export default function Navbar() {
                                 </button>
                                 <div
                                     id="navbar-menu"
-                                    className="fixed py-4 px-4 bg-custom-black-900 border-b border-white border-opacity-10 -top-[350px] shadow-lg mt-2 w-full left-0 transition duration-300 ease-out"
+                                    className="fixed py-4 px-4 bg-custom-black-900 border-b border-white/10 -top-[350px] shadow-lg mt-2 w-full left-0 transition duration-300 ease-out"
                                 >
                                     <ul className="pt-20 text-custom-black-300 text-center text-base font-bold">
                                         <li className="py-2">

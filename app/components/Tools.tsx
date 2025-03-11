@@ -1,8 +1,9 @@
-import { SiVisualstudiocode, SiPostman, SiInsomnia } from 'react-icons/si';
+import { SiPostman, SiInsomnia } from 'react-icons/si';
+import { VscVscode } from "react-icons/vsc";
 import { ImGit } from 'react-icons/im';
 
 const tools = [
-    { name: 'VScode', icon: () => <SiVisualstudiocode className="w-8 h-8 sm:w-10 sm:h-10" /> },
+    { name: 'VScode', icon: () => <VscVscode className="w-8 h-8 sm:w-10 sm:h-10" /> },
     { name: 'Postman', icon: () => <SiPostman className="w-8 h-8 sm:w-10 sm:h-10" /> },
     { name: 'Insomnia', icon: () => <SiInsomnia className="w-8 h-8 sm:w-10 sm:h-10" /> },
     { name: 'Git', icon: () => <ImGit className="w-8 h-8 sm:w-10 sm:h-10" /> },
@@ -23,7 +24,7 @@ export default function Tools() {
                             className="text-custom-black-300 hover:text-white mx-2 sm:mx-4 cursor-pointer group relative flex justify-center items-center"
                         >
                             {tool.icon()}
-                            <div className="absolute -bottom-12 bg-custom-black-900 px-6 py-2 z-10 mx-auto rounded-lg border text-sm border-white border-opacity-30 hidden group-hover:block">
+                            <div className="absolute -bottom-12 bg-custom-black-900 px-6 py-2 z-10 mx-auto rounded-lg border text-sm border-white/30 hidden group-hover:block">
                                 {tool.name}
                             </div>
                         </div>
